@@ -1,0 +1,330 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: #EFEFEF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/******* NAVIGATION ****************************************************/
+nav{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(0, 96, 128);
+}
+
+ul{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+li{
+    width: 10%;
+    list-style: none;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 1.2%;
+}
+i{
+    margin: 1.2%;
+    margin-top: 1.2%;
+    float: right;
+    color: white;
+}
+
+
+img{
+    height: 50px;
+}
+/***************************************** Nav icon hover ***********************************/
+li:hover{
+    background-color: #EFEFEF;
+    color: black;
+    cursor: pointer;
+}
+i:hover{
+    transform: scale(1.8);
+    color: rgba(250, 235, 215, 0.521);
+    cursor: pointer;
+}
+#spanart1:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+#spanart4:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+#p33:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+
+/**************************** SECTION *******************************************/
+section{
+    display: flex;
+    gap: 5%;
+    column-gap: 2%;
+    margin: 1%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 85%;
+    background-color: #EFEFEF;
+}
+section>article{
+    flex: 40%;
+}
+
+/******************************** Article 1 *************************************/
+#art1{
+    display: flex;
+    flex-direction: column;
+    background-color:rgba(250, 235, 215, 0.521); 
+    -webkit-box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.42); 
+    box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.42);
+    flex: 47%;
+}
+#div1{
+   
+    justify-content: center;
+    display: flex;
+    gap: 10%;
+
+}
+
+#p1{
+    background-color:rgba(250, 235, 215, 0.521); 
+    font-size: 1.3rem;
+    text-align: center;
+    height: 25vh;
+    width: 50vh;
+    margin: 0;
+    margin-left: 5%;
+}
+#p2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color:rgba(250, 235, 215, 0.521); 
+    color: rgb(0, 96, 128);
+    font-size: 0.9rem;
+    padding-left: 5%;
+    height: 28vh;
+    width: 40vh;
+    margin: 0;
+}
+#h31{
+    color: rgb(0, 96, 128);
+    padding-bottom: 0.5%;
+    border-bottom: 1px silver solid;
+    width: 90%;
+    margin-left: 5%;
+}
+input{
+    height: 10%;
+    margin: 0;
+    margin-right: 5%;
+    
+}
+button{
+    position: absolute;
+    bottom: 30%;
+    left: 17%;
+    margin-top: 5%;
+    text-align: center;
+    width: 75%;
+}
+#spanart1{
+    position: absolute;
+    left: 18%;
+    bottom: -3%;
+    font-size: 1.3rem;
+    text-align: center;
+    color: rgb(0, 96, 128);
+    font-weight: bold;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-style: dashed hidden dashed hidden;
+    width: 75%;
+}
+
+/******************************** Article 2 *************************************/
+
+
+#art2{
+    background-color:#EFEFEF; 
+    flex: 48%;
+}
+
+#h32{
+    color: rgb(0, 96, 128);
+    padding-bottom: 0.5%;
+    width: 80%;
+    margin: 0;
+    margin-bottom: 2%;
+}
+#p33{
+    position: relative;
+    background-color: rgba(250, 235, 215, 0.521); 
+    -webkit-box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.42); 
+    box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.42);
+    margin: 0;
+    margin-bottom: 2%;
+    padding-left: 1%;
+    padding-top: 1%;
+    width: 100%;
+    height: 40%;
+}
+.p44{
+    margin: 0;
+}
+
+#spanart2{
+    position: absolute;
+    font-size: 0.7rem;
+    bottom: 0;
+    left: 0;
+    padding-left: 1%;
+    margin-top: 10%;
+    font-style: italic;
+}
+
+#spanart3{
+    position: absolute;
+    font-size: 0.7rem;
+    bottom: 0;
+    left: 0;
+    padding-left: 1%;
+    margin-top: 10%;
+    font-style: italic;
+}
+
+.h2rolland{
+    color: rgb(0, 128, 128);
+    margin: 0;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+/******************************** Article 3 *************************************/
+
+#art3{
+    position: relative;
+    background-color: rgba(250, 235, 215, 0.521); 
+    -webkit-box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.42); 
+    box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.42);
+    flex: 40%;
+}
+
+#p55{
+    background-color:rgba(250, 235, 215, 0.521); 
+    font-size: 1.3rem;
+    text-align: center;
+    height: 25vh;
+    width: 50vh;
+    margin: 0;
+    margin-left: 18%;
+    padding: 0;
+}
+
+#spanart4{
+    position: absolute;
+    left: 11%;
+    bottom: 10%;
+    padding: 2%;
+    font-size: 1.3rem;
+    text-align: center;
+    color: rgb(0, 96, 128);
+    font-weight: bold;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-style: dashed hidden dashed hidden;
+    width: 75%;
+}
+
+/******************************** Article 4 *************************************/
+#art4{
+    flex: 40%;
+}
+
+
+.h2art4{
+    color: rgb(0, 128, 128);
+    margin: 0;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    font-size: 1.1rem;
+}
+
+#divart4{
+    background-color: rgba(250, 235, 215, 0.521); 
+    -webkit-box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.42); 
+    box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.42);
+    height: 80%;
+    margin: 5%;
+    margin-top: 0;
+    padding-top: 1%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+
+.number{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: rgb(0, 96, 128);
+    margin: 0;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    font-size: 1.2rem;
+}
+
+
+/**************************** Responsive ********************************/
+
+@media screen and (max-width:1100px) {
+    body{
+        height: 100vh;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    section{
+        display: flex;
+        flex-direction: row;
+        flex: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+    #art1, #art2, #art3, #art4{
+        flex: 100vh;
+    }
+    #art2{
+        margin-bottom: 1%;
+    }
+    #art3{
+        height: 50vh;
+    }
+    #p55{
+        margin-left: 30%;
+    }
+    #p44{
+        padding-bottom: 5%;
+    }
+    #spanart3 {
+        position: absolute;
+        left: 70%;
+        bottom: 0;
+        margin-top: 5%;
+    }
+    #spanart2 {
+        position: absolute;
+        left: 70%;
+        bottom: 0;
+        margin-top: 5%;
+    }
+}
